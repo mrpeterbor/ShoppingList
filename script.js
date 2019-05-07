@@ -65,10 +65,10 @@ function addInput(value){
 		lists = document.querySelectorAll("li");
 		addDoneListener(li);
 
-	var btn = document.createElement("button")
-	btn.className = "smallDelete";
-	btn.appendChild(document.createTextNode("Remove"));
-	li.appendChild(btn);
+	//var btn = document.createElement("button")
+	//btn.className = "smallDelete";
+	//btn.appendChild(document.createTextNode("Remove"));
+	//li.appendChild(btn);
 	//btn.addEventListener("click", function(btn){
 	//	btn.parentNode.parentNode.childNodes(li);
 		
