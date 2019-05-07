@@ -1,0 +1,161 @@
+
+body{
+  background-image:  url("bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(186,27,27);
+  overflow-y: scroll;
+  min-height: min-content;
+}
+
+.root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: min-content;
+}
+
+
+.scroll-container {
+  margin: auto;
+  max-height: 100%;
+  overflow: auto;
+  min-width: min-content;
+}
+
+.flex-container {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: min-content;
+  min-width: min-content;
+  width: 500px;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(255,255,255,0.4);
+  background-attachment: scroll;
+  background-position: center;
+}
+
+input{
+  text-align: center;
+}
+
+#enter{
+  color: rgb(186,27,27);
+  font-family: 'Just Another Hand', cursive;
+  font-size: 30px;
+  text-align: center;
+  height:45px;
+  width: 120px;
+  margin: 20px;
+  background-color: rgb(251,208,4);
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(186,27,27);
+  border-radius: 12px;
+  transition: all 5s;
+  transition-timing-function: linear;
+}
+
+#delete{
+  color: rgb(251,208,4);
+  font-family: 'Just Another Hand', cursive;
+  font-size: 30px;
+  text-align: center;
+  height:45px;
+  width: 120px;
+  margin: 20px;
+  background-color: rgb(186,27,27);
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(251,208,4);
+  border-radius: 12px;
+  transition: all 5s;
+  transition-timing-function: linear;
+}
+
+.smallDelete{
+  color: white;
+  font-family: 'Just Another Hand', cursive;
+  font-size: 25px;
+  text-align: center;
+  height:35px;
+  width: 65px;
+  margin: 5px;
+  background-color: rgb(186,27,27);
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(251,208,4);
+  border-radius: 12px;
+  transition: all 5s;
+  transition-timing-function: linear;
+}
+button:hover{
+  transform: scale(1.2);
+}
+
+h1{
+  font-family: 'Just Another Hand', cursive;
+  font-size: 65px;
+}
+
+p {
+  font-family: 'Just Another Hand', cursive;
+  font-size: 45px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  text-align: center;
+  font-family: 'Just Another Hand', cursive;
+  font-size: 35px;
+}
+
+.coolTitle{
+	 font-family:'Fjalla One', sans-serif;
+  font-size:7em;
+  color: #ff3643;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 3px;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all ease-in-out 0.3s;
+  display:inline;
+  text-shadow: 
+    1px 1px 0 rgba(23,23,23,1),
+    2px 2px 0 rgba(23,23,23,0.9),
+    3px 3px 0 rgba(23,23,23,0.8),
+    4px 4px 0 rgba(23,23,23,0.7),
+    5px 5px 0 rgba(23,23,23,0.6),
+    6px 6px 0 rgba(23,23,23,0.5),
+    7px 7px 0 rgba(23,23,23,0.4),
+    8px 8px 0 rgba(23,23,23,0.3),
+    9px 9px 0 rgba(23,23,23,0.2),
+    10px 10px 0 rgba(23,23,23,0.1),
+    11px 11px 0 rgba(23,23,23,0.09),
+    12px 12px 0 rgba(23,23,23,0.08),
+    13px 13px 0 rgba(23,23,23,0.07),
+    14px 14px 0 rgba(23,23,23,0.06),
+    15px 15px 0 rgba(23,23,23,0.05),
+    16px 16px 0 rgba(23,23,23,0.04),
+    17px 17px 0 rgba(23,23,23,0.03),
+    18px 18px 0 rgba(23,23,23,0.02),
+    19px 19px 0 rgba(23,23,23,0.01),
+    20px 20px 0 rgba(23,23,23,0.0),
+    -15px 20px 10px rgba(23,23,23,0.05);
+}
+
+
+
+.done{
+	text-decoration: line-through;
+}
+}
